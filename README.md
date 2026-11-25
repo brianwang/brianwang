@@ -16,9 +16,15 @@
 
 ---
 
+## 在线产品
+
+**[LumaID Studio](https://www.pictool.pro)** — 面向海外的证件照 SaaS。一张照片自动生成合规的签证 / 护照 / 驾照照片：抠图换底、尺寸裁剪、4x6 打印排版。中 / 英 / 日 / 韩 / 西五语言、订阅支付、PWA、公开 API（[文档](https://www.pictool.pro/docs)）。Next.js + Postgres + 阿里云视觉。
+
+---
+
 ## 技术栈
 
-`Rust` `Python` `TypeScript` `LLM / RAG / Agent` `MCP` `Playwright` `FastAPI` `IFC` `egui`
+`Rust` `Python` `TypeScript` `Next.js` `LLM / RAG / Agent` `MCP` `Playwright` `FastAPI` `Postgres` `IFC` `egui`
 
 ---
 
