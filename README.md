@@ -68,3 +68,20 @@ pip install -e . pytest && pytest -q      # 7 passed
 ## 联系
 
 有合作或项目需求，欢迎开 issue 或 GitHub 私信。
+
+---
+
+## 技术轨迹（2012 → 现在）
+
+十四年，一条线：**从写框架，到做数据，到调度硬件，到落地 AI。**
+
+| 年份 | 在做什么 | 留下的东西 |
+|---|---|---|
+| 2012–2015 | PHP / 前端轮子时代：框架、脚手架、开源导入项目 | `ts-php`、`jqlite`、`ogame-opensource` |
+| 2014–2017 | 数据采集：Scrapy 爬虫、社交媒体接口对接 | `amazone_comments_crawler`、`tumblr_mediaspider`、`fb-webhook` |
+| 2019–2022 | 行业软件与算法：AGV 调度、教育平台 | `agvalgorithrim`、`autocar`、`veduonline` |
+| 2025 | AI 应用起步：学习规划、需求匹配 | `aiedu`、`deal-radar` |
+| 2026 | **AI 落地**：检索评测、浏览器自动化、agent 评测、产品化 | `rag-eval-kit`、`cron-guard`、`session-keeper`、`cn-web-agent-bench`、`pictool.pro` |
+
+每一段都不是收藏，是当时真在做的项目。技术栈换了四五轮，不变的是**只做能跑的东西**。
+
