@@ -15,6 +15,8 @@
 
 ## 代表项目
 
+**[velvet-ai-companion](https://github.com/brianwang/velvet-ai-companion)** — AI 陪伴产品案例（18+）：11 个角色、长期记忆、独立音色、Telegram Mini App、Stars 订阅、双语 UX、审核与客服 bot。生产在跑，源码私有，案例公开。
+
 **[deal-radar](https://github.com/brianwang/deal-radar)** ![CI](https://github.com/brianwang/deal-radar/actions/workflows/ci.yml/badge.svg) — AI 接单助手：聚合多渠道需求、按匹配度打分、生成投标信。半自动，人工审核后发出。**有测试，可本地跑通。**
 
 **[China Web Agent Bench](https://github.com/brianwang/cn-web-agent-bench)** ![CI](https://github.com/brianwang/cn-web-agent-bench/actions/workflows/ci.yml/badge.svg) — 中文互联网平台的 agent 评测集。10 个真实任务，首轮成功率 37%，量化了登录墙、反自动化、动态渲染这些英文基准没有覆盖的障碍。
