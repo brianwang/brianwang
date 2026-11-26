@@ -1,6 +1,6 @@
 ### Hi, I'm brianwang
 
-做 AI 应用开发和 agent 工程。喜欢把复杂系统拆成可验证的小块，用能跑的原型代替演示文稿。
+**从模型到落地，全链路能自己走完。** 后端服务、浏览器自动化、检索评测、产品化上线——每一层都有能跑、能验证的东西。
 
 **在做的方向**：让 AI agent 真正能操作软件和网页，而不只是聊天。
 
@@ -12,9 +12,12 @@
 
 **[China Web Agent Bench](https://github.com/brianwang/cn-web-agent-bench)** ![CI](https://github.com/brianwang/cn-web-agent-bench/actions/workflows/ci.yml/badge.svg) — 中文互联网平台的 agent 评测集。10 个真实任务，首轮成功率 37%，量化了登录墙、反自动化、动态渲染这些英文基准没有覆盖的障碍。
 
+**[rag-eval-kit](https://github.com/brianwang/rag-eval-kit)** ![CI](https://github.com/brianwang/rag-eval-kit/actions/workflows/ci.yml/badge.svg) — RAG 检索评测：recall@k、MRR、命中率。把「改完不知道是好是坏」变成数字。零依赖，可打 HTTP 接口也可当库用。
+
+**[cron-guard](https://github.com/brianwang/cron-guard)** ![CI](https://github.com/brianwang/cron-guard/actions/workflows/ci.yml/badge.svg) — 用心跳文件发现「静默死亡」的定时任务。跑过 20+ 个 cron 之后写的：cron 最危险的失败不是报错，是根本不跑。
+
 **[session-keeper](https://github.com/brianwang/session-keeper)** ![CI](https://github.com/brianwang/session-keeper/actions/workflows/ci.yml/badge.svg) — 多平台浏览器登录态管理。持久化 profile、过期检测、headed 重登引导，解决自动化里最长尾的登录失效问题。
 
-**[BIMCraft](https://github.com/brianwang/bimcraft-showcase)** — 用纯 Rust 从零实现的 BIM 工作流，可被 agent 通过 MCP 驱动。自研几何内核、2D/3D 渲染、IFC 读写、族系统、跨平台打包。早期开发，源码私有。
 
 ---
 
@@ -36,9 +39,17 @@ pip install pytest pyyaml && pytest -q    # 22 passed（10 个任务定义全部
 git clone https://github.com/brianwang/session-keeper && cd session-keeper
 pip install -e . pytest && pytest -q      # 3 passed
 python cli.py --help
+
+# 4) rag-eval-kit —— RAG 检索评测
+git clone https://github.com/brianwang/rag-eval-kit && cd rag-eval-kit
+pip install -e . pytest && pytest -q      # 9 passed
+
+# 5) cron-guard —— 定时任务静默失败检测
+git clone https://github.com/brianwang/cron-guard && cd cron-guard
+pip install -e . pytest && pytest -q      # 7 passed
 ```
 
-三个仓库的 CI 都在 GitHub Actions 上真跑，不是摆设。
+五个仓库的 CI 都在 GitHub Actions 上真跑，不是摆设。
 
 ---
 
