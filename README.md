@@ -4,7 +4,7 @@
 
 不写 PPT 方案，不做演示 Demo。下面每一条都是已经在跑、或者你 clone 下来就能跑的东西。
 
-### 我能交付什么
+## 我能交付什么
 
 - **能跑的系统** —— 仓库带测试和 CI，不是截图。你 `git clone` 之后直接 `pytest` 就知道真假。
 - **线上产品** —— [LumaID Studio](https://www.pictool.pro)：多语言 SaaS，付费订阅、PWA、公开 API，在线上运营。
